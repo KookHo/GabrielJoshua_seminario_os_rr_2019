@@ -5,7 +5,7 @@ Para compilar, é necessário o pacote linux-headers da versão atual do seu ker
 
 Após instalado o pacote, compilar o módulo basta somente executar o Makefile:
 
-	make Makefile
+	sudo make Makefile
 
 Após compilado, irá surgir um arquivo com extensão .ko.
 Esse arquivo deverá ser inserido no kernel com o comando:
